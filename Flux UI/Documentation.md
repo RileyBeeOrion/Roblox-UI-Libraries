@@ -92,19 +92,3 @@ local colors = {
     ElementColor = Color3.fromRGB(20, 20, 20)
 }
 ```
-
-## Applying it: Change your window code little bit.
-```lua
-local Window = Library.CreateLib("TITLE", colors)
-```
-
-## Want to add fully customizable UI?
-```lua
-for theme, color in pairs(themes) do
-    Section:NewColorPicker(theme, "Change your "..theme, color, function(color3)
-        Library:ChangeColor(theme, color3)
-    end)
-end
-```
-Add this code in your section. This will create color pickers.
-Make sure you have added table with all the values of UI. then apply it to window. Like shown above.
