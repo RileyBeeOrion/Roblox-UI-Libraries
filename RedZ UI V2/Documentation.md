@@ -87,14 +87,6 @@ local Toggle = AddToggle(Main, {
     
   end
 })
-
---[[
-  Name = "Toggle Test"
-  Default = false
-  Callback = function(Value)
-    -- function of your checkbox
-  end
-]]
 ```
 
 ## Creating a Mobile Toggle
@@ -147,16 +139,6 @@ AddTextBox(Main, {
   -- Textbox Function
   end
 })
-
---[[
-  Name = "TextBox Test"
-  Default = "redz"
-  PlaceholderText = "hub"
-  ClearText = true
-  Callback = function(Value)
-    -- text box function
-  end
-]]
 ```
 
 ## Creating a Dropdown
@@ -169,15 +151,6 @@ local Dropdown = AddDropdown(Main, {
   -- Dropdown Function
   end
 })
-
---[[
-  Name = "Dropdown teste" <string> dropdown menu name
-  Options = {"1", "2", "3"}
-  Default = "2"
-  Callback = function(Value)
-    -- dropdown menu function
-  end
-]]
 ```
 
 ## Creating a Color Picker
