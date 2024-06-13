@@ -60,12 +60,88 @@ local Dialog = Window:Dialog({
 end})
 ```
 
-## Creating a Dropdown
+## Creating a Another Button
 ```lua
-soon
+local Button = Tab2:AddButton({
+  Name = "Invisible Toggle",
+  Description = "Makes the Toggles Invisible"
+})
+```
+```lua
+Button:Callback(Toggle1.Visible)
+```
+```lua
+Button:Callback(Toggle2.Visible)
 ```
 
-## Creating a Textbox
+## Creating a Toggle
 ```lua
-soon
+local Toggle1 = Tab2:AddToggle({
+  Name = "Toggle 1",
+  Description = "This is a <font color='rgb(88, 101, 242)'>Toggle</font> Example",
+  Default = false
+})
+```
+```lua
+local Toggle1 = Tab2:AddToggle({
+  Name = "Toggle 1",
+  Default = true
+})
+```
+```lua
+Toggle1:Callback(function(Value)
+  Toggle2:Set(false)
+end)
+```
+```lua
+Toggle2:Callback(function(Value)
+  Toggle1:Set(false)
+end)
+```
+## Creating a Slider
+```lua
+Tab2:AddSlider({
+  Name = "Slider",
+  Min = 1,
+  Max = 10,
+  Increase = 1,
+  Default = 5,
+  Callback = function(Value)
+  -- Your Script Here
+  end
+})
+```
+## Creating A Dropdown
+```lua
+local Dropdown = Tab2:AddDropdown({
+  Name = "Players List",
+  Description = "Select the <font color='rgb(88, 101, 242)'>Number</font>",
+  Options = {"one", "two", "three"},
+  Default = "two",
+  Flag = "dropdown teste",
+  Callback = function(Value)
+    
+  end
+})]]
+```
+
+## Creating A Textbox
+```lua
+Tab2:AddTextBox({
+  Name = "Textbox",
+  Description = "this is a Text box",
+  Default = "Text",
+  Callback = function(Value)
+  -- Your Script Here
+  end
+})
+```
+
+## Creating A Discord Invite
+```lua
+Tab3:AddDiscordInvite({
+  Name = "test",
+  Logo = "rbxassetid://15298567397",
+  Invite = "hi"
+})
 ```
