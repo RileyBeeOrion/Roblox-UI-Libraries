@@ -25,7 +25,6 @@ local Window = Fluent:CreateWindow({
 ```
 ## Creating a Tab
 ```lua
---Fluent provides Lucide Icons https://lucide.dev/icons/ for the tabs, icons are optional
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "" }),
 }
@@ -33,7 +32,6 @@ local Tabs = {
 
 ## Creating a Tab (With Settings)
 ```lua
---Fluent provides Lucide Icons https://lucide.dev/icons/ for the tabs, icons are optional
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "" }),
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
