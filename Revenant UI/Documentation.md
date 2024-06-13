@@ -1,5 +1,5 @@
 # Revenant UI
-This documentation is for Kavo UI Credit To xHeptc
+This Documentation Is For Revenant UI Credit To The Owner
 
 ## Booting the Revenant UI Library
 ```lua
