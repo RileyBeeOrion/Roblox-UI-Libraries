@@ -3,6 +3,7 @@ This documentation is for Speed Hub X UI Credit To Ahmad
 
 ## Booting the Speed Hub X UI Library
 ```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Settings.lua"))()
 local Library = loadstring(game:HttpGet("https://speedhubxv3-library.surge.sh"))()
 ```
 
