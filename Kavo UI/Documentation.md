@@ -3,17 +3,9 @@ This documentation is for Kavo UI Credit To xHeptc
 
 ## Booting the Kavo UI Library
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 ```
-Themes:
-    LightTheme
-    DarkTheme
-    GrapeTheme
-    BloodTheme
-    Ocean
-    Midnight
-    Sentinel
-    Synapse
+
 
 
 
